@@ -20,6 +20,8 @@ class LoginPage {
 
   login(extension) {
     // Fix me!
+    this.extensionField.setValue(extension);
+    this.loginButton.click();
   }
 }
 
